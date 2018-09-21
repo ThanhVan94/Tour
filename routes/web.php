@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('index',[
-	'as'=>'trang-chu',
-	'uses'=>'PageController@getIndex'
-]);
+Route::get('/','PageController@index')->name('home');
+
+Route::get('/dashboard','Admin\DashboardController@index')->name('dashboard');
