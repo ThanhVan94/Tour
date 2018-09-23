@@ -2,7 +2,7 @@
         
 
     <div class="container text-center justify-content-center align-items-center searchform">
-        <h3 class="white mx-2 my-3 text-center shadow-text d-block">Find the place it suits you best</h3>    
+        <h3 class="white mx-2 my-3 text-center shadow-text d-block">Tìm địa điểm phù hợp với bạn nhất</h3>    
         <form class="form-inline text-center justify-content-center align-items-center ">
             <input type="text" class="form-control-inline2 form-control mb-2 mr-lg-2 mx-md-0 mx-4 py-2" id="inlineFormInputName1" placeholder="Search Tours"> 
             <span class="fas fa-search iconform"></span>

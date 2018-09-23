@@ -1,5 +1,5 @@
 <head>
-    <title>Home - Turbino Template</title>
+    <title>Trang chủ</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
