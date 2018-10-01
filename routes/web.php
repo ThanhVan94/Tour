@@ -10,8 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 
 Route::get('/','PageController@index')->name('home');
 
-Route::get('/dashboard','Admin\DashboardController@index')->name('dashboard');
+Auth::routes();
+
+Route::group(['as'=>'admin.page.','prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth','admin']],function(){
+	Route::get('/dashboard','DashboardController@index')->name('dashboard');
+});
